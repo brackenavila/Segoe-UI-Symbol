@@ -1,0 +1,27 @@
+*{transition:3s}
+body{
+ background:overflow:hidden}
+body>a{
+ font-size:5em;
+ left:50%;
+ position:relative;
+ top:45%;
+ -webkit-animation:a 5s 1}
+@-webkit-keyframes a{
+ to{transform:rotate(1440deg)}
+
+#师{left:20%;position:absolute}
+#师>*{
+ color:rgba(255,255,255,.5);
+ font-size:5em;
+ perspective:100em}
+#师>:nth-child(odd):hover{transform:rotate(5deg)}
+#师>:nth-child(even):hover{transform:rotate(-5deg)}
+a{
+ cursor:pointer;
+ height:10%;
+ width:100%}
+a:hover{
+ color:#FFF;
+ transform:translateZ(150em);
+ text-shadow:#00F 0 -5px 15px,#000 0 0 15px,#088 0 5px 15px,#F00 0 -15em 0,#0F0 12em 7em 0,#00F -12em 7em 0,#F00 0 15em 0,#0F0 -12em -7em 0,#00F 12em -7em 0}
