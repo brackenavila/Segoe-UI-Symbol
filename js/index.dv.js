@@ -15,7 +15,7 @@ f={
   't=f.d.createElement(t);'+
   'for(i in a)t[i]=a[i];'+
   'return t'),
- s:'*{transition:3s_body{background:overflow:hidden_body>a{font-size:5em;left:50%;position:relative;top:45%;'+w+'animation:a 5s 1_@'+w+'keyframes a{to{transform:rotate(1440deg)}',
+ s:'*{transition:3s_body{background:overflow:hidden;font-family:Segoe UI Symbol_body>a{font-size:5em;left:50%;position:relative;top:45%;'+w+'animation:a 5s 1_@'+w+'keyframes a{to{transform:rotate(1440deg)}',
  sty:F('s,i',
   's=s.split("_");'+
   'for(i in s)f.S.insertRule(s[i],f.S.cssRules.length)')}

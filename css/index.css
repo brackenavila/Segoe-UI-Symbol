@@ -1,6 +1,7 @@
 *{transition:3s}
 body{
- background:overflow:hidden}
+ background:overflow:hidden;
+ font-family:Segoe UI Symbol}
 body>a{
  font-size:5em;
  left:50%;
